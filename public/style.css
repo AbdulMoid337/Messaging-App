@@ -1,0 +1,45 @@
+.chat{
+    background-color: rgb(84, 144, 196);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 9px;
+   display: inline-block;
+   margin: 10px;
+}
+.msg{
+    background-color: rgb(208, 194, 176);
+    color: rgb(3, 83, 4);
+    padding: 9px;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #55a157;
+    border: 1px solid black;
+    color: rgb(1, 11, 16);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #3e8e41;
+    transform: scale(0.95);
+}
+
+.span{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
